@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: #fffafa; */
+}
+
+.topnav {
+    height: 100vh;
+    background-image: linear-gradient(rgba(9, 155, 195, 0.5), rgba(16, 11, 184, 0.616)), url(/images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+.p {
+    font-size: 75px;
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(255, 158, 47);
+}
+
+.logo-span {
+    color: rgb(31, 242, 8);
+}
+
+.logotext div {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    color: #ffffff;
+    padding: 5px 9px;
+}
+
+.read-morebtn {
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 6px 20px;
+    border: 2px solid transparent;
+    border-radius: 0px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font: 2em;
+    position: relative;
+    animation-name: anim-logotext;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+.read-morebtn:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@keyframes anim-logotext {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+    25% {
+        background-color: rgb(59, 196, 13);
+    }
+    50% {
+        top: 40px;
+        right: 0px;
+    }
+    75% {
+        background-color: rgb(196, 37, 13);
+    }
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+top: 0px;
+right: 0px;
+
+}
+50% {
+    top: 40px;
+    right: 0px;
+}
+100% {
+    top: 0px;
+    right: 0px;
+}
+.nav {
+    display: flex;
+    background-color: rgb(11, 74, 119);
+    padding: 8px;
+    align-items: center;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+ul li {
+    padding: 10px;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fafafa;
+    position: relative;
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    animation-name: anim-navlinks;
+    animation-duration: 3s;
+}
+@keyframes anim-navlinks {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+    
+    50% {
+        top: 10px;
+        right: 0px;
+    }
+    
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+/* header end */
+.about {
+    padding: 100px;
+    background-color: black;
+}
+.img img {
+    border-radius: 2%;
+}
+.about {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.img {
+    flex: 30%;
+    padding: 20px;
+}
+.textforme {
+    flex: 70%;
+    padding: 20px;
+    text-align: center;
+}
+.textforme h2,
+h5,
+p {
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 1.2em;
+    padding: 10px;
+}
+.textforme h2 {
+    font-size: 75px;
+}
+.textforme h5 {
+    font-size: 30px;
+}
+.textforme p {
+    line-height: 1.5em;
+}
+.talkbtn {
+    background-color: #0077B5;
+    padding: 6px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font: 2em;
+}
+.talkbtn:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #0077B5;
+    cursor: pointer;
+}
+
+/* end */
+.service {
+    background-color: rgb(41, 33, 33);
+    padding: 20px;
+}
+.title {
+    text-align: center;
+    color: white;
+}
+.box {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.card i {
+    color: red;
+}
+.card {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 8px 6px 4px rgb(0, 0, 0);
+    position: relative;
+}
+.card:hover {
+    animation-duration: 2s;
+    animation-name: anim-card;
+}
+@keyframes anim-card {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    
+    50% {
+        top: 10px;
+        left: 0px;
+    }
+    
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+.readmore-button {
+    background-color: rgb(164, 1, 1);
+    padding: 8px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font: 2em;
+    transition: width 4s;
+}
+.readmore-button:hover {
+    background-color: transparent;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+/* end  */
+.hire {
+    background-color: #0077B5;
+    padding: 6px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font: 2em;
+    position: relative;
+}
+.hire:hover {
+    animation-name: hire-anim;
+    background-color: transparent;
+    border-bottom: 2px solid #0077B5;
+    cursor: pointer;
+    animation-duration: 2s;
+}
+@keyframes hire-anim {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    
+    50% {
+        top: 10px;
+        left: 0px;
+    }
+    
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+.farabi {
+    font-size: 80px;
+}
+span {
+    color: red;
+}
+.footer {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+.button-2 {
+    background-color: red;
+}
+.social {
+    margin: 30px;
+}
+.social a {
+    margin: 2px;
+}
+.social .f {
+    color: #3b5998;
+    font-size: 25px;
+    position: relative;
+}
+.social .g {
+    color: #dc4e41;
+    font-size: 25px;
+    position: relative;
+}
+.social .l {
+    color: #0077B5;
+    font-size: 25px;
+    position: relative;
+}
+.f:hover {
+    animation-name: anim-social;
+    animation-duration: 2s;
+}
+.g:hover {
+    animation-name: anim-social;
+    animation-duration: 2s;
+}
+.l:hover {
+    animation-name: anim-social;
+    animation-duration: 2s;
+}
+@keyframes anim-social {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    
+    50% {
+        top: 10px;
+        left: 0px;
+    }
+    
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+/* end */

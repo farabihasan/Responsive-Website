@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+    ul {
+        display: block;
+        text-align: center;
+    }
+    .nav,
+    .about,
+    .box {
+        flex-wrap: wrap;
+    }
+    .textforme h2 {
+        font-size: 20px;
+    }
+    .textforme h5 {
+        font-size: 15px;
+    }
+    .textforme h2,
+    h5,
+    p {
+        font-weight: 200;
+    }
+    .nav a {
+        left: 100%;
+    }
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width:768px) {
+    .nav,
+    .about,
+    .box {
+        flex-wrap: wrap;
+    }
+}
